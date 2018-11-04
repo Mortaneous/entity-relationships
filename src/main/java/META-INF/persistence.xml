@@ -6,8 +6,6 @@
    
     <persistence-unit name="com.mortaneous.entityrelationships" transaction-type="RESOURCE_LOCAL">  
 		
-        <class>com.mortaneous.entityrelationships.one_to_one.Employee</class>
-        
         <properties>
        		<property name="hibernate.archive.autodetection" value="class" />
        		 
